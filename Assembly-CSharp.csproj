@@ -49,6 +49,7 @@
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Easy FPS\Scripts\GunScript.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\Scripts\LookPlayer.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\Scripts\HandgunFire.cs" />
@@ -57,7 +58,8 @@
      <Compile Include="Assets\Easy FPS\Scripts\DestroyAfterTimeParticle.cs" />
      <Compile Include="Assets\Scripts\DoorOpenFirst.cs" />
      <Compile Include="Assets\Low Poly Guns\Scripts\GunView.cs" />
-     <Compile Include="Assets\Scripts\LookPlayer.cs" />
+     <Compile Include="Assets\Scripts\SoldierAI.cs" />
+     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
      <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
     <Reference Include="UnityEngine">
