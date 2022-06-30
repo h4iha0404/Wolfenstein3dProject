@@ -114,6 +114,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -326,6 +327,7 @@
 -r:"E:/GitApp/Wolfenstein3dProject/Wolfenstein3d/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"E:/GitApp/Wolfenstein3dProject/Wolfenstein3d/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
@@ -398,11 +400,24 @@
 "Assets/AssetPack/UI/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/ButtonMenu.cs"
+"Assets/Scripts/EnemyAI/AttackBehavior.cs"
+"Assets/Scripts/EnemyAI/ChaseBehavior.cs"
+"Assets/Scripts/EnemyAI/Enemy.cs"
+"Assets/Scripts/EnemyAI/IdleBehavior.cs"
+"Assets/Scripts/EnemyAI/PatrolBehavior1.cs"
+"Assets/Scripts/EnemyAI/PatrolBehavior2.cs"
+"Assets/Scripts/EnemyAI/PatrolBehavior3.cs"
+"Assets/Scripts/EnemyAI/PatrolBehavior4.cs"
+"Assets/Scripts/EnemyAI/PatrolBehavior5.cs"
+"Assets/Scripts/EnemyAI/Projectile.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/Player/Gun.cs"
 "Assets/Scripts/Player/MouseLook.cs"
+"Assets/Scripts/Player/PlayerManager.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Player/Scope.cs"
+"Assets/Scripts/Player/WeaponSwitching.cs"
 "Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/SettingsMenu.cs"
 "Assets/Scripts/Sound.cs"

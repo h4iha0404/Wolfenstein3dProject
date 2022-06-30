@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - WayPoints
+  - WayPoints1
+  - WayPoints2
+  - WayPoints3
+  - WayPoints4
+  - WayPoints5
   layers:
   - Default
   - TransparentFX
@@ -13,10 +19,10 @@ TagManager:
   - UI
   - Ground
   - 
+  - PostProcessing
+  - Not in Reflection
   - 
-  - 
-  - 
-  - 
+  - Weapons
   - 
   - 
   - 
