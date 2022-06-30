@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\SoftEffects\Scripts\Editor\SoftEffectsFontEditor.cs" />
-     <Compile Include="Assets\SoftEffects\Scripts\Editor\SoftEffectsEditor.cs" />
+     <Compile Include="Assets\AssetPack\UI\SoftEffects\Scripts\Editor\SoftEffectsFontEditor.cs" />
+     <Compile Include="Assets\AssetPack\UI\SoftEffects\Scripts\Editor\SoftEffectsEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
