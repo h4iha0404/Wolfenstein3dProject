@@ -25,6 +25,8 @@ public class Gun : MonoBehaviour
 
     public Animator animator;
 
+    public ParticleSystem shellParticle;
+
     InputAction shoot;
 
     void Start()
@@ -73,6 +75,7 @@ public class Gun : MonoBehaviour
         AudioManager.instance.Play("ShootSound");
 
         muzzleFlash.Play();
+        shellParticle.Emit(1);
         currentAmmo--;
         RaycastHit hit;
         if(Physics.Raycast(fpsCam.position + fpsCam.forward, fpsCam.forward, out hit, range))
@@ -81,14 +84,18 @@ public class Gun : MonoBehaviour
             {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);
             }
-            /*
             Enemy e = hit.transform.GetComponent<Enemy>();
             if(e != null)
             {
                 e.TakeDamage(damageAmount);
                 return;
             }
-            */
+            Breaking b = hit.transform.GetComponent<Breaking>();
+            if(b != null)
+            {
+                b.TakeDamage(damageAmount);
+                return;
+            }
 
             Quaternion impactRotation = Quaternion.LookRotation(hit.normal);
             GameObject impact = Instantiate(impactEffect, hit.point, impactRotation);

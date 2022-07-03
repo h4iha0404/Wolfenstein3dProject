@@ -25,7 +25,7 @@ public class PlayerManager : MonoBehaviour
         playerHPvalue.text = playerHP.ToString() + " / 100";
         if (isGameOver)
         {
-            SceneManager.LoadScene("MenuScene");
+            SceneManager.LoadScene("GameOverScene");
         }
     }
 
